@@ -1,0 +1,257 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  font-size: 12px;
+}
+a {
+  font-size: 13px;
+}
+.navbar-dark {
+  background: #18293c !important;
+}
+h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.nav-link {
+  color: #ffffffe6 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+#bgImg {
+  background-image: url("/assets/images/slid1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+#innerImage {
+  margin-top: 1em;
+  background-image: url(/assets/images/bg-red.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 27vh;
+}
+.carousel-nav-icon {
+  height: 30px;
+  width: 30px;
+  color: #fff !important;
+}
+.carousel-item {
+  .col,
+  .col-sm,
+  .col-md {
+    margin: 8px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+.img-carousel {
+  background-color: rgb(12, 25, 67, 0.8);
+  height: 100px;
+}
+.carousel-nav-icon svg {
+  fill: #fff;
+  height: 20px;
+}
+.fa-rotate-45 {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(-45deg);
+}
+.fa-rotate-240 {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(-240deg);
+}
+.overlay-form img {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: -3em;
+}
+.overlay-form {
+  background-color: rgb(19, 113, 123, 0.7);
+}
+.overlay-form label {
+  font-size: 13px;
+  color: #fff;
+}
+.overlay-form .btn {
+  background-color: #62b206;
+  padding: 10px 50px;
+  color: #fff;
+}
+.module h1 {
+  color: #fff;
+}
+/* tabs start */
+.main-content #home {
+  background-color: #3aa6b2 !important;
+  color: #fff;
+}
+.main-content #profile {
+  background-color: #3aa6b2 ;
+  color: #fff;
+}
+.main-content .nav-tabs {
+  padding-left: 2em;
+}
+.main-content .nav-item {
+  width: 100px;
+  margin: 0px 1px;
+  border-radius: 0px !important;
+}
+
+/* tabs end */
+
+/* team starts */
+.team img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid #fff;
+  box-shadow: 1px 2px 8px 1px gray;
+}
+/* team ends`  */
+
+/* footer starts */
+.footer {
+  background-color: #00002d;
+}
+.footer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.top-links a {
+  color: #fff;
+  padding: 0px 5px;
+  border-right: 1px solid #fff;
+}
+.top-links:last-child a {
+  border: none;
+}
+.footer-links a {
+  color: #fff;
+  padding: 0px 5px;
+  border-right: 1px solid #fff;
+}
+.social-links .fa {
+  display: inline-block;
+  border: 1px solid #1998a6;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+  background-color: #212121;
+  color: #87c5cc;
+}
+.footer p {
+  color: #fff;
+}
+.footer hr {
+  border: 1px solid gray;
+}
+.footer h6 {
+  font-size: 14px;
+}
+/* footer ends */
+
+.module {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/skyscrapers.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+  object-position: center;
+  object-fit: cover;
+}
+.module h1 {
+  color: black;
+  font-weight: 700;
+}
+.module1 h1 {
+  color: black;
+  font-weight: 700;
+}
+.form-row .btn {
+  background-color: #b09c01;
+  padding: 10px 50px;
+  color: #fff;
+}
+
+#home-tab {
+  background-color: #3aa6b2 ;
+  color: #fff;
+}
+
+
+
+#profile-tab {
+  background-color: #b09c01 ;
+  color: #fff;
+}
+#contact-tab {
+  background-color: #b09c01 ;
+  color: #fff;
+}
+#contact {
+  background-color: #3aa6b2 ;
+  color: #fff;
+}
+.meet-team {
+  background-color: #6de0ed;
+  padding: 10px 0px;
+}
+.meet-team .btn {
+  background-color: #1998a6;
+  color: #fff;
+  box-shadow: -2px 9px 20px -9px black;
+  font-size: 12px;
+}
+.meet-team h6 {
+  line-height: 28px;
+  color: #fff;
+}
+.meet-team img {
+  height: 236px;
+}
+.graph h2 {
+  font-weight: bold;
+}
+
+.team h2 {
+  font-weight: bold;
+}
+
+.team h6 {
+  font-weight: bold;
+}
+.home-insaurance p {
+  line-height: 28px;
+}
+
+.tabs-part .btn {
+  background-color: #b09c01 !important;
+  color: #fff;
+  padding: 10px 50px;
+}

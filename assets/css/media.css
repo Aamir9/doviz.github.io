@@ -1,0 +1,28 @@
+@media (max-width: 992px) {
+  .overlay-form img {
+    position: relative;
+    top: 0;
+  }
+}
+@media (max-width: 992px) {
+  .overlay-form img {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media (max-width: 480px) {
+  .footer img {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media (max-width: 576px) {
+  .module h1 {
+    font-size: 15px;
+  }
+  .main-content .nav-item {
+    width: 90px;
+    margin: 0px 1px;
+    border-radius: 0px !important;
+  }
+}
